@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/last_pencil.egg-info/PKG-INFO
+src/last_pencil.egg-info/SOURCES.txt
+src/last_pencil.egg-info/dependency_links.txt
+src/last_pencil.egg-info/top_level.txt
+src/lastpencil/__init__.py
+src/lastpencil/last_pencil.py
