@@ -26,3 +26,6 @@ Have fun!
 ## Progress
 
 25.09.22 Project started - github repo and project structure setup.
+
+25.09.22 Stage 1 completed - just print 2 lines...
+
