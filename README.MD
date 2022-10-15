@@ -6,8 +6,8 @@ This is my second Python project.
 
 ## Technology / External Libraries
 
-- Python 3.10.6,
-- with packages, scikit-learn, tox, black and isort
+- Python 3.10.8,
+- with packages: scikit-learn, tox, black and isort
 
 ## Repository Contents
 
@@ -29,3 +29,4 @@ Have fun!
 
 25.09.22 Stage 1 completed - just print 2 lines...
 
+15.10.22 Stage 2 completed - read user input and use it to format 2 output lines...
