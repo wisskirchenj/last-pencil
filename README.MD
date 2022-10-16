@@ -21,7 +21,7 @@ Have fun!
 
 ## Project completion
 
-[//]: # (Project was completed on dd.mm.22.)
+Project was completed on 16.10.22.
 
 ## Progress
 
@@ -34,3 +34,5 @@ Have fun!
 15.10.22 Stage 3 completed - a very simple 'game loop' between 2 human players...
 
 15.10.22 Stage 4 completed - validate all user input and give dedicated informative messages...
+
+16.10.22 Final stage 5 completed - implement an optimal bot game strategy...
