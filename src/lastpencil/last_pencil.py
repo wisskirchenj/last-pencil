@@ -16,6 +16,9 @@ def is_invalid(text, initial):
         if len(text) != 1 or text[0] not in ['1', '2', '3']:
             print("Possible values: '1', '2' or '3'")
             return True
+        if int(text) > pencil_count:
+            print('Too many pencils were taken')
+            return True
     return False
 
 
@@ -31,14 +34,10 @@ def do_turn():
     global pencil_count, turn_player
     print('|' * pencil_count)
     print(f"{turn_player}'s turn!")
-    user_choice = prompt_pencil_count(False)
-    if user_choice > pencil_count:
-        print('Too many pencils were taken')
-    else:
-        pencil_count -= user_choice
+    pencil_count -= prompt_pencil_count(False)
+    turn_player = players[1] if turn_player == players[0] else players[0]
     if pencil_count == 0:
         print(f'{turn_player} won!')
-    turn_player = players[1] if turn_player == players[0] else players[0]
 
 
 pencil_count = prompt_pencil_count(True)
